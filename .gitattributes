@@ -1,0 +1,14 @@
+# Do not edit manually
+# Language detection rules
+dist/* linguist-vendored
+*.woff binary
+*.tsx linguist-detectable 
+
+node_modules/* linguist-vendored
+*.html linguist-vendored
+app/*.tsx linguist-detectable
+*.json linguist-detectable=false
+
+*.htm linguist-vendored
+*.yaml linguist-detectable=false
+# eof a49775a7
